@@ -3,3 +3,4 @@
 
 ## 成果
 - [成果報告](https://github.com/tzuchyi/chrome-extension/blob/main/專題實作期末成果報告書.pdf)
+- [影片展示](https://github.com/tzuchyi/chrome-extension/tree/main/video)
