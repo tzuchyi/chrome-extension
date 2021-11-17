@@ -1,0 +1,29 @@
+{
+	"name" : "youtubeai extension",
+	"version":"1.0",
+	"manifest_version":2,
+	"description": "即時呈現youtube留言的五指標分數",
+	"permissions": [
+	    "activeTab"
+	  ],
+	"icons":{
+		"128":"128.png",
+		"16":"16.png",
+		"48":"48.png"
+	},
+	"browser_action":{
+		 
+		"default_title":"youtubeai"
+	},
+	"background":{
+		"scripts": ["jquery.js","background.js"],
+    	"persistent": false
+	}
+	// "content_scripts" : [  
+ //        {  
+ //            "matches" : ["*://www.youtube.com/*"],  
+ //            "js" : ["content.js"],  
+ //            "css" : ["content.css"]  
+ //        }  
+ //    ]
+}
